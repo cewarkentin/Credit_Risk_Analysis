@@ -4,6 +4,18 @@ Overview of the analysis, Explain the purpose of this analysis.
 
 ## Results
 
+### Naive Random Oversampling
+
+### SMOTE Oversampling
+
+### Cluster Centroids Undersampling
+
+### SMOTEENN Combination (Over and Under) Sampling
+
+### Balanced Random Forest Classifier
+
+### Easy Ensemble AdaBoost Classifier
+
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
 There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models

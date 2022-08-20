@@ -79,6 +79,35 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models
 
+### Overall
+
+The ML models have the following balanced accuracy scores:
+
+- NRO: 0.657
+- SMOTE: 0.662
+- CCU: 0.545
+- SMOTEEN: 0.645
+- BRF: 0.789
+- EEC: 0.932
+
+The ML models have the following precision scores:
+
+- NRO: High Risk - 0.01, Low Risk - 1.00
+- SMOTE: High Risk - 0.01, Low Risk - 1.00
+- CCU: High Risk - 0.01, Low Risk - 1.00
+- SMOTEEN: High Risk - 0.01, Low Risk - 1.00
+- BRF: High Risk - 0.03, Low Risk - 1.00
+- EEC: High Risk - 0.09, Low Risk - 1.00
+
+The ML models have the following recall scores:
+
+- NRO: High Risk - 0.71, Low Risk - 0.60
+- SMOTE: High Risk - 0.63, Low Risk - 0.69
+- CCU: High Risk - 0.69, Low Risk - 0.40
+- SMOTEEN: High Risk - 0.72, Low Risk - 0.57
+- BRF: High Risk - 0.70, Low Risk - 0.87
+- EEC: High Risk - 0.92, Low Risk - 0.94
+
 ## Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.

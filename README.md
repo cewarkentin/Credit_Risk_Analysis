@@ -90,6 +90,8 @@ The ML models have the following balanced accuracy scores:
 - BRF: 0.789
 - EEC: 0.932
 
+The Easy Ensemble AdaBoost Classifier model has the highest balanced accuracy score and the Cluster Centroids Undersampling model has the lowest balanced accuracy score.
+
 The ML models have the following precision scores:
 
 - NRO: High Risk - 0.01, Low Risk - 1.00
@@ -99,6 +101,8 @@ The ML models have the following precision scores:
 - BRF: High Risk - 0.03, Low Risk - 1.00
 - EEC: High Risk - 0.09, Low Risk - 1.00
 
+All models had high precision for identifying low-risk credit card applicants. The Balanced Random Forest Classifier and Easy Ensemble AdaBoost Classifier models outperformed the rest of the models in terms of precision identifying high-risk credit card applicants. However, the highest precision for the high-risk category was only 0.09, which is very very low.
+
 The ML models have the following recall scores:
 
 - NRO: High Risk - 0.71, Low Risk - 0.60
@@ -107,6 +111,8 @@ The ML models have the following recall scores:
 - SMOTEEN: High Risk - 0.72, Low Risk - 0.57
 - BRF: High Risk - 0.70, Low Risk - 0.87
 - EEC: High Risk - 0.92, Low Risk - 0.94
+
+The Easy Ensemble AdaBoost Classifier model has the highest recall scores for both high-risk and low-risk credit card applicants.
 
 ## Summary
 

@@ -1,6 +1,8 @@
 # Credit_Risk_Analysis
 
-Overview of the analysis, Explain the purpose of this analysis.
+Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. 
+
+Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, the following Machine Learning models were used: Naive Random Oversampling, SMOTE Oversampling, Cluster Centroids Undersampling, SMOTEENN Combination (Over and Under) Sampling, Balanced Random Forest Classifier, and Easy Ensemble AdaBoost Classifier. Performance reports were used to evaluate the models and make a recommendation on whether they should be used to predict credit risk.
 
 ## Results
 
@@ -81,7 +83,7 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 
 ### Overall
 
-The ML models have the following balanced accuracy scores:
+#### The ML models have the following balanced accuracy scores:
 
 - NRO: 0.657
 - SMOTE: 0.662
@@ -92,7 +94,7 @@ The ML models have the following balanced accuracy scores:
 
 The Easy Ensemble AdaBoost Classifier model has the highest balanced accuracy score and the Cluster Centroids Undersampling model has the lowest balanced accuracy score.
 
-The ML models have the following precision scores:
+#### The ML models have the following precision scores:
 
 - NRO: High Risk - 0.01, Low Risk - 1.00
 - SMOTE: High Risk - 0.01, Low Risk - 1.00
@@ -103,7 +105,7 @@ The ML models have the following precision scores:
 
 All models had high precision for identifying low-risk credit card applicants. The Balanced Random Forest Classifier and Easy Ensemble AdaBoost Classifier models outperformed the rest of the models in terms of precision identifying high-risk credit card applicants. However, the highest precision for the high-risk category was only 0.09, which is very very low.
 
-The ML models have the following recall scores:
+#### The ML models have the following recall scores:
 
 - NRO: High Risk - 0.71, Low Risk - 0.60
 - SMOTE: High Risk - 0.63, Low Risk - 0.69

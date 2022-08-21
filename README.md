@@ -118,8 +118,4 @@ The Easy Ensemble AdaBoost Classifier model has the highest recall scores for bo
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
-
-There is a summary of the results
-
-There is a recommendation on which model to use, or there is no recommendation with a justification
+Overall, the Easy Ensemble AdaBoost Classifier provided the best predictive model for the given data.
